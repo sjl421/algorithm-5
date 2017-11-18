@@ -38,4 +38,14 @@ public class Values {
 	 * 数字 100
 	 */
 	public static final int ONE_HUNDRED_INT = 100;
+
+	/**
+	 * 数字 10
+	 */
+	public static final int TEN_INT = 10;
+
+	/**
+	 * 数字 2
+	 */
+	public static final int TWO_INT = 2;
 }

@@ -6,6 +6,9 @@ package com.zhazhapan.algorithm.leetcode;
 import java.util.Arrays;
 
 /**
+ * <a href="https://leetcode.com/problems/coin-change-2/description/">visit
+ * LeetCode page</a>
+ * 
  * @author pantao
  * @since 2017-04-08
  * @function 给定几种指定大小的面额和总金额，求总金额的兑换方法
