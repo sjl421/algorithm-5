@@ -40,11 +40,9 @@ public class MedianOfTwoSortedArrays {
 		for (int i = 0; i < len; i++) {
 			boolean inNums1 = n == nums2.length || (m != nums1.length && (nums1[m] < nums2[n]));
 			if (inNums1) {
-				nums[i] = nums1[m];
-				m++;
+				nums[i] = nums1[m++];
 			} else {
-				nums[i] = nums2[n];
-				n++;
+				nums[i] = nums2[n++];
 			}
 		}
 		return nums;
